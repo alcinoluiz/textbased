@@ -1,0 +1,53 @@
+body{
+	background-color: black;
+	font-family: monospace;
+	/*background-image: url("swmp.jpg");*/
+	color:white;
+}
+#wrapper{
+	margin: 0px auto;
+	width: 820px;
+}
+#status{
+	width: 804px;	
+	background-color: #F3F3F3;
+}
+#area, textarea{
+    width: 789px;
+    height: 570px;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0.68);
+    overflow-y: auto;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 16px;
+}
+
+#text, #text:focus{
+	width: 796px;
+	height: 30px;
+	border: 1px white solid;
+	background-color: rgba(0, 0, 0, 0.68);
+	color: white;
+	outline:none;
+    	outline-color: aliceblue;
+    	outline-style: none;
+    	outline-width: thin;
+    	padding-left: 6px;
+    	font-family: monospace;
+}
+p{
+	margin: 0px;
+	text-align: left;
+	margin-bottom: 4px;
+}
+p.prologo{
+	color: red;
+}
+p.red{
+	color: #FF6161;
+}
+span.menu{
+	margin-left: 160px;
+	color: black;
+}
