@@ -137,13 +137,13 @@ function readInput(){
 	var txt  = text.split(" ");
 	$("#area").append("<p> > "+text+"</p>");
 
+
 	if(txt[0] == "help"|| txt[0] == "ajuda"){
 		append(cmd);
 
 		update();
 		return;
 	}
-
 	if((txt[0] == "look"|| txt[0] == "olhar") && txt.length == 1){
 		append(actualRoom.desc);
 		actualRoom.objects.forEach(function(o){
@@ -156,7 +156,7 @@ function readInput(){
 		return;
 	}
 
-	for (var i = 0; i < mv.length; i++) {
+	for (var i = 0; i <	 mv.length; i++) {
 		if(txt[0] == mv[i]){
 			actualRoom.go(txt);
 			return;
